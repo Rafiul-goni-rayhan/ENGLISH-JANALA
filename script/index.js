@@ -78,7 +78,7 @@ const displayLevelWord = (words) => {
     // console.log(word);
     const card = document.createElement("div");
     card.innerHTML = `
-        <div class="bg-white rounded-xl py-10 px-5 space-y-4">
+        <div class="bg-white  rounded-xl py-10 px-5 space-y-4">
             <h2 class="text-xl font-bold ">${word.word ? word.word : "pauajayni"}</h2>
             <p class="font-semibold">Meaning /Pronunciation </p>
             <div class="text-xl semibold font-bangla">"${word.meaning ? word.meaning : "ortho paua jayni"}/${word.pronunciation ? word.pronunciation : "pronunciation painai"}"</div>
